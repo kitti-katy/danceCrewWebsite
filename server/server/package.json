@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon /home/kate/klassykats/server/server/bin/www --exec babel-node --inspect --presets node6"
+  },
+  "dependencies": {
+    "babel-preset-node6": "^11.0.0",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "firebase": "^4.6.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "node6": "^1.0.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "babel-install": "2.1.0",
+    "nodemon": "^1.12.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-cli": "^6.24.1"
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "presets": [
+    "node6"
+  ]
+}
